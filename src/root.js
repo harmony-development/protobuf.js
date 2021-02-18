@@ -309,8 +309,8 @@ Root.prototype._handleAdd = function _handleAdd(object) {
                     ++i;
         for (var j = 0; j < /* initializes */ object.nestedArray.length; ++j) // recurse into the namespace
             this._handleAdd(object._nestedArray[j]);
-        if (exposeRe.test(object.name))
-            object.parent[object.name] = object; // expose namespace as property of its parent
+        // if (exposeRe.test(object.name))
+            // object.parent[object.name] = object; // expose namespace as property of its parent
     }
 
     // The above also adds uppercased (and thus conflict-free) nested types, services and enums as
