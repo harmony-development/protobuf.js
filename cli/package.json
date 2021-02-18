@@ -1,7 +1,7 @@
 {
   "name": "@harmony-dev/protobufjs-cli",
   "description": "Translates between file formats and generates static code as well as TypeScript definitions.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Daniel Wirtz <dcode+protobufjs@dcode.io>",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "pbts": "bin/pbts"
   },
   "peerDependencies": {
-    "protobufjs": "^7.0.0"
+    "@harmony-dev/protobufjs": "^6.0.0"
   },
   "dependencies": {
     "chalk": "^4.0.0",
